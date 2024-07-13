@@ -5,7 +5,7 @@
   --grey-light: hsl(0, 0%, 94%);
   --grey-dark: hsl(0, 1%, 44%);
   --purple: hsl(259, 100%, 65%);
-  --red: hsl(0, 100%, 67%)
+  --red: hsl(0, 100%, 67%);
 }
 
 * {
@@ -145,5 +145,36 @@ button.submit-btn {
 @media screen and (max-width:480px) {
   .divider {
     justify-content: center;
+  }
+
+  .card {
+    width: 350px;
+    padding: 35px 25px 35px 25px;
+
+  }
+
+  .date-display {
+    font-size: 45px;
+    line-height: 1;
+  }
+
+  form {
+    margin-right: 0;
+  }
+
+  form .input-fields {
+    gap: 15px;
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  form label input {
+    font-size: 16px;
+    width: 85px
+  }
+
+  .divider {
+    margin-top: 25px;
+    margin-bottom: 50px;
   }
 }
